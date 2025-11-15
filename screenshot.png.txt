@@ -1,0 +1,9 @@
+Detta är en placeholder för screenshot.png
+
+För att lägga till en temabild:
+1. Skapa en bild (1200x900px rekommenderas)
+2. Döp den till screenshot.png
+3. Lägg den i temamappens rot
+
+WordPress kommer automatiskt visa denna bild i Themes-listan.
+

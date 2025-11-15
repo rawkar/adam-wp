@@ -1,0 +1,42 @@
+/*
+Theme Name: Adam Klingeteg Portfolio
+Theme URI: https://github.com/rawkar/Adam-Klingeteg
+Author: Adam Klingeteg
+Author URI: https://adamklingeteg.com
+Description: A modern, artistic portfolio WordPress theme featuring edgy interactions, smooth animations, and a visual-first experience. Converted from Next.js to WordPress with full ACF integration for editable content.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 8.0
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Text Domain: adam-klingeteg
+Tags: portfolio, photography, modern, artistic, custom-post-types, acf
+*/
+
+/* Critical Navigation Styles - Loaded first */
+#main-navigation {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  height: 77px !important;
+  z-index: 9999 !important;
+  background-color: transparent !important;
+  display: block !important;
+  visibility: visible !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body.admin-bar #main-navigation {
+  top: 32px !important;
+}
+
+@media screen and (max-width: 782px) {
+  body.admin-bar #main-navigation {
+    top: 46px !important;
+  }
+}
+
